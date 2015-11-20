@@ -14,7 +14,7 @@ local numbers = {}
 
 function MainScene:init()
 
-    moveBackButton = Button("iOS Button Pack:Red Back Circle Button", vec2(WIDTH/2, HEIGHT/2))
+    moveBackButton = Button("Dropbox:Red Back Circle Button", vec2(WIDTH/2, HEIGHT/2))
     
     print("initially I have ".. #numbers .. " numbers.")
 end
